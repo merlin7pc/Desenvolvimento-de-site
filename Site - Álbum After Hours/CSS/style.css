@@ -1,0 +1,81 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 2em;
+
+}
+
+p {
+  font-size: large;
+  font-family: helvetica;
+}
+
+ul {
+  font-size: large;
+  font-family: helvetica;
+}
+
+/* Remove margens padrão */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Div com a imagem de fundo */
+.fundo {
+  background-image: url("../Imagens\ e\ vídeo/Capa\ After\ Hours.jpg"); /* Substitua pelo nome da sua imagem */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+/* Texto sobre a imagem */
+.texto-sobre {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* ou outra cor que contraste com a imagem */
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+
+/* Estilo geral da barra */
+nav {
+  background-color: #000000; /* fundo escuro */
+  height: 22px;
+  padding: 15px 20px;
+  display: flex;
+  gap: 40px;
+  justify-content: center; /* alinhamento ao centro */
+  top: 0;
+  z-index: 100; 
+}
+
+/* Links dentro da barra */
+nav {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  transition: color 0.3s;
+  padding: 6px 10px;
+  line-break: center;
+  color: #ffffff;
+  border-bottom: 2.5px solid #ffffff;
+}
+
+a {
+    color:#ffffff
+}
+
+table {
+    font-size: large;
+}
