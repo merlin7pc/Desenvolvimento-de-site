@@ -1,0 +1,1 @@
+Este repositório contém a pasta com um site inspirado e totalmente focado no álbum After Hours do cantor e compositor The Weeknd. O site foi desenvolvido pela estudante do Instituto Federal do Rio Grande do Norte, Ana Giovanna Pascoal de Brito, da turma de INFO1V.
